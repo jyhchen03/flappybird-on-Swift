@@ -3,7 +3,6 @@
 //  flapbirb iOS
 //
 //  Created by Johnny Chen on 2023-05-11.
-//
 
 import UIKit
 import SpriteKit
