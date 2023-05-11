@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4C62AB2A0D74860055A016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C62AA2A0D74860055A016 /* AppDelegate.swift */; };
+		AF4C62AD2A0D74860055A016 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C62AC2A0D74860055A016 /* GameViewController.swift */; };
+		AF4C62B02A0D74860055A016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62AE2A0D74860055A016 /* Main.storyboard */; };
+		AF4C62B32A0D74860055A016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62B12A0D74860055A016 /* LaunchScreen.storyboard */; };
+		AF4C62BB2A0D74860055A016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C62BA2A0D74860055A016 /* AppDelegate.swift */; };
+		AF4C62BD2A0D74860055A016 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C62BC2A0D74860055A016 /* GameViewController.swift */; };
+		AF4C62C02A0D74860055A016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62BE2A0D74860055A016 /* Main.storyboard */; };
+		AF4C62C22A0D74860055A016 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF4C629F2A0D74850055A016 /* Actions.sks */; };
+		AF4C62C32A0D74860055A016 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF4C629F2A0D74850055A016 /* Actions.sks */; };
+		AF4C62C42A0D74860055A016 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62A02A0D74850055A016 /* GameScene.sks */; };
+		AF4C62C52A0D74860055A016 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62A02A0D74850055A016 /* GameScene.sks */; };
+		AF4C62C62A0D74860055A016 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C62A12A0D74850055A016 /* GameScene.swift */; };
+		AF4C62C72A0D74860055A016 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C62A12A0D74850055A016 /* GameScene.swift */; };
+		AF4C62C82A0D74860055A016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62A22A0D74860055A016 /* Assets.xcassets */; };
+		AF4C62C92A0D74860055A016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4C62A22A0D74860055A016 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF4C629F2A0D74850055A016 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AF4C62A02A0D74850055A016 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AF4C62A12A0D74850055A016 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF4C62A22A0D74860055A016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4C62A72A0D74860055A016 /* flapbirb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flapbirb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4C62AA2A0D74860055A016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF4C62AC2A0D74860055A016 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF4C62AF2A0D74860055A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4C62B22A0D74860055A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4C62B82A0D74860055A016 /* flapbirb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flapbirb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4C62BA2A0D74860055A016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF4C62BC2A0D74860055A016 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF4C62BF2A0D74860055A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4C62C12A0D74860055A016 /* flapbirb_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = flapbirb_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4C62A42A0D74860055A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4C62B52A0D74860055A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4C62992A0D74850055A016 = {
+			isa = PBXGroup;
+			children = (
+				AF4C629E2A0D74850055A016 /* flapbirb Shared */,
+				AF4C62A92A0D74860055A016 /* flapbirb iOS */,
+				AF4C62B92A0D74860055A016 /* flapbirb macOS */,
+				AF4C62A82A0D74860055A016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4C629E2A0D74850055A016 /* flapbirb Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C629F2A0D74850055A016 /* Actions.sks */,
+				AF4C62A02A0D74850055A016 /* GameScene.sks */,
+				AF4C62A12A0D74850055A016 /* GameScene.swift */,
+				AF4C62A22A0D74860055A016 /* Assets.xcassets */,
+			);
+			path = "flapbirb Shared";
+			sourceTree = "<group>";
+		};
+		AF4C62A82A0D74860055A016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C62A72A0D74860055A016 /* flapbirb.app */,
+				AF4C62B82A0D74860055A016 /* flapbirb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4C62A92A0D74860055A016 /* flapbirb iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C62AA2A0D74860055A016 /* AppDelegate.swift */,
+				AF4C62AC2A0D74860055A016 /* GameViewController.swift */,
+				AF4C62AE2A0D74860055A016 /* Main.storyboard */,
+				AF4C62B12A0D74860055A016 /* LaunchScreen.storyboard */,
+			);
+			path = "flapbirb iOS";
+			sourceTree = "<group>";
+		};
+		AF4C62B92A0D74860055A016 /* flapbirb macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C62BA2A0D74860055A016 /* AppDelegate.swift */,
+				AF4C62BC2A0D74860055A016 /* GameViewController.swift */,
+				AF4C62BE2A0D74860055A016 /* Main.storyboard */,
+				AF4C62C12A0D74860055A016 /* flapbirb_macOS.entitlements */,
+			);
+			path = "flapbirb macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4C62A62A0D74860055A016 /* flapbirb iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4C62CC2A0D74860055A016 /* Build configuration list for PBXNativeTarget "flapbirb iOS" */;
+			buildPhases = (
+				AF4C62A32A0D74860055A016 /* Sources */,
+				AF4C62A42A0D74860055A016 /* Frameworks */,
+				AF4C62A52A0D74860055A016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flapbirb iOS";
+			productName = "flapbirb iOS";
+			productReference = AF4C62A72A0D74860055A016 /* flapbirb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4C62B72A0D74860055A016 /* flapbirb macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4C62CF2A0D74860055A016 /* Build configuration list for PBXNativeTarget "flapbirb macOS" */;
+			buildPhases = (
+				AF4C62B42A0D74860055A016 /* Sources */,
+				AF4C62B52A0D74860055A016 /* Frameworks */,
+				AF4C62B62A0D74860055A016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flapbirb macOS";
+			productName = "flapbirb macOS";
+			productReference = AF4C62B82A0D74860055A016 /* flapbirb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4C629A2A0D74850055A016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AF4C62A62A0D74860055A016 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AF4C62B72A0D74860055A016 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AF4C629D2A0D74850055A016 /* Build configuration list for PBXProject "flapbirb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4C62992A0D74850055A016;
+			productRefGroup = AF4C62A82A0D74860055A016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4C62A62A0D74860055A016 /* flapbirb iOS */,
+				AF4C62B72A0D74860055A016 /* flapbirb macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4C62A52A0D74860055A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C62C42A0D74860055A016 /* GameScene.sks in Resources */,
+				AF4C62B02A0D74860055A016 /* Main.storyboard in Resources */,
+				AF4C62C22A0D74860055A016 /* Actions.sks in Resources */,
+				AF4C62B32A0D74860055A016 /* LaunchScreen.storyboard in Resources */,
+				AF4C62C82A0D74860055A016 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4C62B62A0D74860055A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C62C02A0D74860055A016 /* Main.storyboard in Resources */,
+				AF4C62C52A0D74860055A016 /* GameScene.sks in Resources */,
+				AF4C62C92A0D74860055A016 /* Assets.xcassets in Resources */,
+				AF4C62C32A0D74860055A016 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4C62A32A0D74860055A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C62C62A0D74860055A016 /* GameScene.swift in Sources */,
+				AF4C62AD2A0D74860055A016 /* GameViewController.swift in Sources */,
+				AF4C62AB2A0D74860055A016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4C62B42A0D74860055A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C62C72A0D74860055A016 /* GameScene.swift in Sources */,
+				AF4C62BD2A0D74860055A016 /* GameViewController.swift in Sources */,
+				AF4C62BB2A0D74860055A016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF4C62AE2A0D74860055A016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4C62AF2A0D74860055A016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4C62B12A0D74860055A016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4C62B22A0D74860055A016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4C62BE2A0D74860055A016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4C62BF2A0D74860055A016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4C62CA2A0D74860055A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF4C62CB2A0D74860055A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AF4C62CD2A0D74860055A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G76FPCRN8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyhchen.flapbirb;
+				PRODUCT_NAME = flapbirb;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4C62CE2A0D74860055A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G76FPCRN8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyhchen.flapbirb;
+				PRODUCT_NAME = flapbirb;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4C62D02A0D74860055A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "flapbirb macOS/flapbirb_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G76FPCRN8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyhchen.flapbirb;
+				PRODUCT_NAME = flapbirb;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF4C62D12A0D74860055A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "flapbirb macOS/flapbirb_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G76FPCRN8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyhchen.flapbirb;
+				PRODUCT_NAME = flapbirb;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4C629D2A0D74850055A016 /* Build configuration list for PBXProject "flapbirb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C62CA2A0D74860055A016 /* Debug */,
+				AF4C62CB2A0D74860055A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4C62CC2A0D74860055A016 /* Build configuration list for PBXNativeTarget "flapbirb iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C62CD2A0D74860055A016 /* Debug */,
+				AF4C62CE2A0D74860055A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4C62CF2A0D74860055A016 /* Build configuration list for PBXNativeTarget "flapbirb macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C62D02A0D74860055A016 /* Debug */,
+				AF4C62D12A0D74860055A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4C629A2A0D74850055A016 /* Project object */;
+}
